@@ -24,7 +24,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5175", // Keep for development
-      "https://chat-shap--jet.vercel.app/", // ✅ Add your deployed frontend link
+      "https://chat-shap-9aar.vercel.app/", // ✅ Add your deployed frontend link
     ],
     credentials: true,
   })
