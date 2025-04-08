@@ -22,7 +22,10 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: [
+      "http://localhost:5173", // Keep for development
+      "https://chat-shap--jet.vercel.app/", // ✅ Add your deployed frontend link
+    ],
     credentials: true,
   })
 );
